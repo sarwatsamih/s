@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html lang="ku">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Social Media Links</title>
-<link rel="stylesheet" href="style.css">
-<script src="typewriter.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sarwat Samih Yasin - Personal Portfolio">
+    <title>Sarwat Samih Yasin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <img src="people.png" alt="" srcset="">
-  <div id="typewriter1"></div>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile-card">
+            <div class="profile-image-wrapper">
+                <img src="people.png" alt="Sarwat Samih Yasin" class="profile-image">
+                <div class="profile-image-glow"></div>
+            </div>
+            
+            <div class="profile-info">
+                <div class="typewriter-wrapper">
+                    <h1 id="typewriter1" class="name-title"></h1>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="bio">
+                    <div class="contact-links">
+                        <div id="typewriter2" class="contact-item"></div>
+                        <div id="typewriter3" class="contact-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <div class="icons">
-    <a href="https://instagram.com/sarwat_samih" target="_blank" class="instagram">
-    <img src="insta.png">
-    </a>
-    <a href="https://www.tiktok.com/@s._barzani" target="_blank" class="tiktok">
-      <img src="tiktok.png">
-    </a>
-    <a href="https://snapchat.com/add/sarwatbarzanii" target="_blank" class="snapchat">
-      <img src="snap.png">
-    </a>
-    </a>
-    <a href="https://wa.me/+7503967716" target="_blank" class="whatsapp">
-      <img src="w.png">
-    </a>
-  </div>
-  <br>
-  <div id="typewriter2"></div>
-  <div id="typewriter3"></div>
+        <!-- Social Links Section -->
+        <div class="social-section">
+            <h3 class="social-label">Connect With Me</h3>
+            <div class="icons">
+                <a href="https://instagram.com/sarwat_samih" target="_blank" class="social-link instagram" data-tooltip="Instagram">
+                    <img src="insta.png" alt="Instagram">
+                    <span class="tooltip-text">Instagram</span>
+                </a>
+                <a href="https://www.tiktok.com/@s._barzani" target="_blank" class="social-link tiktok" data-tooltip="TikTok">
+                    <img src="tiktok.png" alt="TikTok">
+                    <span class="tooltip-text">TikTok</span>
+                </a>
+                <a href="https://snapchat.com/add/sarwatbarzanii" target="_blank" class="social-link snapchat" data-tooltip="Snapchat">
+                    <img src="snap.png" alt="Snapchat">
+                    <span class="tooltip-text">Snapchat</span>
+                </a>
+                <a href="https://wa.me/+7503967716" target="_blank" class="social-link whatsapp" data-tooltip="WhatsApp">
+                    <img src="w.png" alt="WhatsApp">
+                    <span class="tooltip-text">WhatsApp</span>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Decorative Elements -->
+        <div class="decorative-dots"></div>
+    </div>
 
-
-  <br/>
-  <br/>
+    <script src="typewriter.js"></script>
 </body>
 </html>
